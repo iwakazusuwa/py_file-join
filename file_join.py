@@ -3,15 +3,10 @@
 
 # # 複数のCSVファイルを１ファイルに結合して保存する
 
-# In[1]:
-
-
 import os
 import glob
 import pandas as pd
 
-
-# In[2]:
 
 
 #=============================================
@@ -49,9 +44,6 @@ for f in os.listdir(dir):
     os.remove(os.path.join(dir, f))
 
 
-# In[4]:
-
-
 #=============================================
 # ファイルリスト
 #=============================================
@@ -70,8 +62,6 @@ data_df = pd.concat(data_list,axis=0)
 data_df.to_csv(output_dpath + "/" + save_name, encoding='cp932',index =False)
 
 
-# In[5]:
-
 
 #=============================================
 # 保存フォルダ開く
@@ -84,8 +74,6 @@ os.startfile(os.path.realpath(output_dpath) + "\\")
 #=============================================
 #os.startfile(os.path.realpath(output_dpath) + "\\" + save_name)
 
-
-# In[ ]:
 
 
 
