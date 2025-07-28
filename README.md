@@ -2,7 +2,7 @@
 
 複数のCSVファイルを１ファイルに結合して保存します。
 
-👉 [ipynbファイルはこちら] (https://github.com/iwakazusuwa/ipynb_file-join-Public)
+👉 [ipynbファイルはこちら](https://github.com/iwakazusuwa/ipynb_file-join-Public)
 
 
 詳しい使い方や解説は以下の記事をご覧ください。
